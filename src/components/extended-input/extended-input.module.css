@@ -1,0 +1,43 @@
+.inputContainer {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.icon {
+	position: absolute;
+	left: 10px;
+	font-size: 16px;
+	color: #6c757d;
+}
+
+input {
+	padding: 10px;
+	border: 1px solid #ced4da;
+	transition: border-color 0.3s;
+	width: 100%;
+}
+
+input.withIcon {
+	padding-left: 35px;
+}
+
+input:focus {
+	border-color: #80bdff;
+	outline: none;
+}
+
+.error {
+	color: red;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+input.error {
+	border-color: red;
+}
+
+sup {
+	color: red;
+	margin-left: 2px;
+}
